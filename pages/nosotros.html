@@ -5,38 +5,79 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Giorgio Pizza</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <link rel="stylesheet" href="../css/estilos.css">
         <script src="https://kit.fontawesome.com/acaf011dda.js" crossorigin="anonymous"></script>
         
     </head>
-    <body>
-      <header class="header">
-        <div class="contenedorLogo">
-          <a href="#"><img class="logo" src="../assets/img/logo.jpg" alt="Logo"></a>
+  <body>
+      <header class="header container-fluid">
+        <div>
+          <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="../index.html">
+                <img src="../assets/img/logo.jpg" alt="" width="100px" class="d-inline-block align-text-top">  
+              </a>
+              <h3>GiorgioPizza</h3>
+  
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav w-100 justify-content-end">
+                  <li class="nav-item">
+  
+                    <a class="nav-link active colorLink text-white" aria-current="page" href="../index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link colorLink" href="#">Nosotros</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link colorLink" href="./carta.html">Carta</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link colorLink" href="./Contacto.html">Contacto</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link colorLink" href="./comentarios.html">Comentarios</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
         </div>
-        <nav class="navegacion">
-          <ul>
-            <li class="listaItem"><a class="linkNav" href="../index.html">Inicio</a></li>
-                <li class="listaItem"><a class="linkNav" href="#">Nosotros</a></li>
-                <li class="listaItem"><a class="linkNav" href="./carta.html">Carta</a></li>
-                <li class="listaItem"><a class="linkNav" href="./Contacto.html">Contacto</a></li>
-                <li class="listaItem"><a class="linkNav" href="./comentarios.html">Comentarios</a></li>
-          </ul>
-      </nav>
       </header>
+
       <main class="main">
-        <div class="titulo">
-          <h1>Quienes somos?</h1>
-        </div>
-        <div class="tituloDos">
-          <h2>"Por Giorgio maestro pizzero"</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, iusto? Facilis tempore rerum doloribus 
-            similique laborum ea officiis facere eius aliquid asperiores, nisi consectetur aspernatur porro aperiam, 
-            perferendis dicta rem.</p>
-        </div>
+        <div class="fotoGio">
+          <div class="card bg-transparent text-white w-50 container">
+            <img src="../assets/img/giorgio.jpg" class="card-img" alt="...">
+            <div class="card-img-overlay">
+              <h5 class="card-title">GiorgioPizza</h5>
+            </div>
+          </div>
+            <div class="titulo">
+          <div class="clearfix">
+              <h1>
+                Quienes Somos?
+              </h1>
+            </p>
+          
+            <p>
+              Bienvenidos a Giorgio Pizza, una pizzería que te hará sentir como en casa con cada bocado. Nuestra preparación hogareña es lo que nos distingue de otras pizzerías, y nuestro compromiso con la calidad y la frescura de nuestros ingredientes es lo que nos hace destacar.
+              En nuestra pizzería, nos aseguramos de que cada pizza sea única y deliciosa, utilizando una variedad de ingredientes frescos y sabrosos que se combinan a la perfección en cada bocado.
+            </p>
+          
+            <p>
+              Nuestro slogan "no es un secreto, es cariño de hogar" resume nuestra filosofía. Queremos que cada cliente se sienta como en c
+              asa al visitarnos, disfrutando de una pizza deliciosa y hecha con cariño. En Giorgio Pizza, creemos que la comida es una forma 
+              de unir a las personas, y estamos comprometidos a ofrecer una experiencia de pizza única y memorable para todos nuestros clientes.
+            </p>
+          </div>
+          </div>
       </main> 
       <hr>
-      <footer class="footer">
+      <footer class="footer container-fluid">
           <p>Todos los derechos reservados © Sebas Espinoza</p>
       <div>
           <a class="linkRedes" href="https://www.facebook.com"><i class="fa-brands fa-square-facebook" style="color: #c0c0c0;"></i></a>
@@ -46,6 +87,6 @@
       
       </footer>
   
-    
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>  
   </body>
   </html>

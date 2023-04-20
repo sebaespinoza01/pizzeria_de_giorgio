@@ -5,40 +5,16 @@
     box-sizing: border-box;
 }
 .header{
-    height: 28vh;
-    background-image: linear-gradient(to right, #e3f0ab, #e1ebb5, #dfe6be, #dde1c7, #dadcd0);
-    background-size: center;
+    height: 18vh;
+    background-image: linear-gradient(to right, #10e4dd, #36d0d0, #397b8c, #245160, #154255);
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
-.contenedorLogo{
-    width: 30%;
-    padding-right: 200px;
-    margin-left: 35%;
-    text-align: right;
-}
-.logo{
-    width: 40%;
-    background-position: center;
-}
 
-.navegacion{
-    display: inline-block;
-    width: 70%;
-    text-align: right;
-}
-.listaItem{
-    list-style: none;
-    display: inline-block;
-    padding-left: 70px;
-    padding-top: 5%;
-    padding-bottom: 30%;
-}
-.linkNav{
-    text-decoration: none;
-    color:rgb(5, 5, 5);
-    font-size: 2rem
+.navbar-light .navbar-nav .colorLink{
+    color: rgb(8, 190, 184);
+    font-size: 2rem;
 }
 
 /* aqui termina la configuracion de la navegacion*/
@@ -54,38 +30,57 @@
 
 }
 .titulo{
-    width: 50%;
-    margin: 0 auto;
-    color:rgb(255, 255, 255);
-    font-size: 2rem;
-    margin-top: 100px;
-    text-align: center;
+    display: flex;
+    justify-content: center;
     backdrop-filter: blur(12px);
     font-family: 'Italiana', serif;
+    font-size: 2rem;
+    color: white;
+    text-align: center;
 }
 
+
 .tituloDos{
+    display: flex;
+    justify-content: center;
     width: 50%;
     margin: 0 auto;
-    color:rgb(255, 255, 255);
+    color:rgb(52, 215, 175);
     font-size: 2rem;
     margin-top: 0px;
     text-align: center;
     backdrop-filter: blur(12px);
     font-family: 'Italiana', serif;
 }
-.video{
+
+.card-body{
     text-align: center;
+    margin: 0 auto;
+    font-family: 'Italiana', serif;
+    margin-top: 20px;
 
 }
-.video h3{
-    text-align: center;
+.promociones{
+    display: flex;
+    justify-content: center;
+}
+.carousel-item img{
+    justify-content: center;
+}
+
+.tituloVideo{
+    display: flex;
+    justify-content: center;
     font-size: 3rem;
     font-family: 'Italiana', serif;
-    color: #fefffb;
-    background-color: rgba(92, 17, 17, 0.424);
-
+    color: #282828;
+    background-color: rgba(10, 207, 174, 0.424);
 }
+.video{
+    display: flex;
+    justify-content: center;
+}
+
 /*pagina de contacto*/
 .contacto{
     text-align: center;
@@ -98,11 +93,8 @@
 .mapa{
     width: 50%;
     height: 38%;
-    margin-top: 20%;
-    margin-left: 25%;
-    text-align: center;
-    font-family: 'Italiana', serif;
-    color: white;
+    display: flex;
+    justify-content: center;
 }
 .tituloComentarios{
     text-align: center;
