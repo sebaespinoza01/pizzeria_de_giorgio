@@ -10,7 +10,7 @@
         <script src="https://kit.fontawesome.com/acaf011dda.js" crossorigin="anonymous"></script>
         
     </head>
-    <body>
+    <body class="body">
       <header class="header container-fluid">
         <div>
           <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
@@ -24,16 +24,16 @@
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav w-100 justify-content-end">
+                <ul class="navbar-nav w-100 justify-content-end fle">
                   <li class="nav-item">
   
-                    <a class="nav-link active colorLink text-white" aria-current="page" href="../index.html">Inicio</a>
+                    <a class="nav-link active colorLink" aria-current="page" href="../index.html">Inicio</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link colorLink" href="./nosotros.html">Nosotros</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link colorLink" href="#">Carta</a>
+                    <a class="nav-link colorLink text-white" href="#">Carta</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link colorLink" href="./Contacto.html">Contacto</a>
@@ -48,108 +48,134 @@
         </div>
       </header>
 
-      <main class="main">
-        <div class="titulo">
-          <h1>bienvenidos a Giorgo Pizza</h1>
+      <main class="mainCarta">
+        <div class="tituloCarta">
+          <h1>CONOCE NUESTRA CARTA:</h1>
         </div>
-        <div class="tituloDos">
-          <h2>"No es un secreto, es Cariño de hogar"</h2>
-        </div>
-  <div class="carta container">
 
-    <div class="row row-cols-1 row-cols-md-4 g-1 justify-content-center">
-      <div class="col">
-        <div class="card h-100">
-          <img src="../assets/img/pizza italiana.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Pizza Italiana</h5>
-            <p class="card-text">Ingredientes Aqui</p>
+        <div class="tituloDosCarta">
+          <h2>¿CUAL ES TU SABOR FAVORITO DE PIZZA?</h2>
+        </div>
+
+        <div class="tarjetasCartaFuno">
+          <div>
+            <div class="card" style="width: 18rem;">
+              <img src="../assets/img/pizza napolitana.png" class="card-img-top" alt="Pizza Napolitana">
+              <div class="card-body">
+                <h5 class="card-title">Pizza Napolitana</h5>
+                <p class="card-text">Salsa Base, Queso, Jamon y Tomate.</p>
+                <a href="./Contacto.html" class="btn btn-primary">Pide Ahora</a>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <div class="card" style="width: 18rem;">
+              <img src="../assets/img/pizza hawai.png" class="card-img-top" alt="Pizza Hawaiana">
+              <div class="card-body">
+                <h5 class="card-title">Pizza Hawaiana</h5>
+                <p class="card-text">Salsa Base, Queso, Jamon y Piña.</p>
+                <a href="./Contacto.html" class="btn btn-primary">Pide Ahora</a>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <div class="card" style="width: 18rem;">
+              <img src="../assets/img/pizza vegeta.png" class="card-img-top" alt="Pizza Vegetariana">
+              <div class="card-body">
+                <h5 class="card-title">Pizza Vegetariana</h5>
+                <p class="card-text">Salsa Base, Queso, Champiñon, Aceituna Negra, Pimenton y Tomate.</p>
+                <a href="./Contacto.html" class="btn btn-primary">Pide Ahora</a>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <div class="card" style="width: 18rem;">
+              <img src="../assets/img/Pizza Peperoni.png" class="card-img-top" alt="Pizza Peperoni">
+              <div class="card-body">
+                <h5 class="card-title">Pizza Especial Peperoni</h5>
+                <p class="card-text">Salsa Base, Extra Queso, Peperoni.</p>
+                <a href="./Contacto.html" class="btn btn-primary">Pide Ahora</a>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="col">
-        <div class="card h-100">
-          <img src="../assets/img/pizza española.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Pizza Española</h5>
-            <p class="card-text">Ingredientes Aqui</p>
+
+        <div class="tarjetasCartaFdos">
+          <div>
+            <div class="card" style="width: 18rem;">
+              <img src="../assets/img/pizza veggie.png" class="card-img-top" alt="Pizza Veggie">
+              <div class="card-body">
+                <h5 class="card-title">Pizza Veggie</h5>
+                <p class="card-text"> Salsa base, Queso, Tomate, Choclo, Aceituna Negra, Palta, Palmito, Pimenton.</p>
+                <a href="./Contacto.html" class="btn btn-primary">Pide Ahora</a>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card h-100">
-          <img src="../assets/img/pizza margarita.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Pizza Margarita</h5>
-            <p class="card-text">Ingredientes Aqui</p>
+
+          <div>
+            <div class="card" style="width: 18rem;">
+              <img src="../assets/img/pizza italia.png" class="card-img-top" alt="Pizza Italiana">
+              <div class="card-body">
+                <h5 class="card-title">Pizza Italiana</h5>
+                <p class="card-text">Salsa Base, Queso, Peperoni, Aceituna Negra y Champiñon.</p>
+                <a href="./Contacto.html" class="btn btn-primary">Pide Ahora</a>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
-    </div>
-    <br>
-    <div class="row row-cols-1 row-cols-md-4 g-1 justify-content-center">
-      <div class="col">
-        <div class="card h-100">
-          <img src="../assets/img/pizza hawaiana.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Pizza Hawaiana</h5>
-            <p class="card-text">Ingredientes Aqui</p>
+
+          <div>
+            <div class="card" style="width: 18rem;">
+              <img src="../assets/img/Pizza Margarita.png" class="card-img-top" alt="Pizza Margarita">
+              <div class="card-body">
+                <h5 class="card-title">Pizza Margarita</h5>
+                <p class="card-text">Salsa Base, Queso, Tomate Cherry, Albahaca, Choclo y Pollo.</p>
+                <a href="./Contacto.html" class="btn btn-primary">Pide Ahora</a>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card h-100">
-          <img src="../assets/img/pizza peperoni.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Pizza Peperoni</h5>
-            <p class="card-text">Ingredientes Aqui</p>
+
+          <div>
+            <div class="card" style="width: 18rem;">
+              <img src="../assets/img/pizza carnivora.png" class="card-img-top" alt="Pizza Carnivora">
+              <div class="card-body">
+                <h5 class="card-title">Pizza Carnivora</h5>
+                <p class="card-text">Salsa Base, Queso, Carne, Tocino, Jamon y Pollo.</p>
+                <a href="./Contacto.html" class="btn btn-primary">Pide Ahora</a>
+              </div>
+            </div>
           </div>
+
         </div>
-      </div>
-      <div class="col">
-        <div class="card h-100">
-          <img src="../assets/img/pizza pollo barbacoa.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Pizza Pollo Barbacoa</h5>
-            <p class="card-text">Ingredientes Aqui</p>
+
+        <div class="tarjetasCartaFtres">
+          <div>
+            <div class="card" style="width: 18rem;">
+              <img src="../assets/img/Pizza pollo barbacoa.png" class="card-img-top" alt="Pizza Pollo Barbacoa">
+              <div class="card-body">
+                <h5 class="card-title">Pizza Pollo BBQ</h5>
+                <p class="card-text">Salsa Base BBQ, Queso, Pollo, Tocino y Cebolla.</p>
+                <a href="./Contacto.html" class="btn btn-primary">Pide Ahora</a>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
-    </div>
-    <br>
-    <div class="row row-cols-1 row-cols-md-4 g-1 justify-content-center">
-      <div class="col">
-        <div class="card h-100">
-          <img src="../assets/img/pizza vegetariana.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Pizza Vegetariana</h5>
-            <p class="card-text">Ingredientes Aqui</p>
+
+          <div>
+            <div class="card" style="width: 18rem;">
+              <img src="../assets/img/pizza Rustica.png" class="card-img-top" alt="Pizza Rustica">
+              <div class="card-body">
+                <h5 class="card-title">Pizza Rustica</h5>
+                <p class="card-text">Salsa Base, Queso, Champiñon, Choclo, Tocino y Pollo</p>
+                <a href="./Contacto.html" class="btn btn-primary">Pide Ahora</a>
+              </div>
+            </div>
           </div>
+
         </div>
-      </div>
-      <div class="col">
-        <div class="card h-100">
-          <img src="../assets/img/pizza4estaciones.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Pizza Cuatro Estaciones</h5>
-            <p class="card-text">Ingredientes Aqui</p>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card h-100">
-          <img src="../assets/img/pizzaqueso.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Pizza de Queso</h5>
-            <p class="card-text">Ingredientes Aqui</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-      </main> 
-      <hr>
-      <footer class="footer container-fluid">
+      </main>
+      <footer class="footerCarta container-fluid">
           <p>Todos los derechos reservados © Sebas Espinoza</p>
       <div>
           <a class="linkRedes" href="https://www.facebook.com"><i class="fa-brands fa-square-facebook" style="color: #c0c0c0;"></i></a>
