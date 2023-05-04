@@ -1,0 +1,48 @@
+.mainIndex{
+    height: 160vh;
+    background-image: linear-gradient(to left, #098da8, #098fab, #0991ad, #0894b0, #0896b3, #0897b4, #0898b6, #0899b7, #0899b7, #0899b7, #0899b7, #0899b7);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    margin:0 auto;
+    padding-top: 10px;
+}
+.tituloIndex{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin: 0 auto;
+    color: map-get($color-texto, coloruno);
+    font-size: 3rem;
+    margin-top: 0px;
+    text-align: center;
+    backdrop-filter: blur(12px);
+    font-family: 'Italiana', serif;
+    background-color: #274f4d61;
+    
+}
+.sloganIndex{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: flex-start;
+    color: map-get($color-texto, coloruno);
+    font-size: 1rem;
+    font-family: 'Italiana', serif;    
+}
+.videoTitulo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 78%;
+    margin: 0 auto;
+    color:rgb(255, 255, 255);
+    font-size: 2rem;
+    backdrop-filter: blur(15px);
+    font-family: 'Italiana', serif;
+    background-color: #274f4d3e
+}
+.video{
+    display: flex;
+    justify-content: center;
+}
