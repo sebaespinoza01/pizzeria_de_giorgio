@@ -1,1 +1,292 @@
-@import url("https://fonts.googleapis.com/css2?family=Italiana&display=swap");/*# sourceMappingURL=styles.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Italiana&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  height: 18vh;
+  background-image: linear-gradient(to left, #098da8, #098fab, #0991ad, #0894b0, #0896b3, #0897b4, #0898b6, #0899b7, #0899b7, #0899b7, #0899b7, #0899b7);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.header .navbar-light .navbar-nav .colorLink {
+  color: rgb(3, 59, 58);
+  font-size: 2rem;
+  z-index: 2;
+}
+
+@media screen and (min-width: 0px) and (max-width: 768px) {
+  .header {
+    height: initial;
+  }
+}
+.mainIndex {
+  height: 160vh;
+  background-image: linear-gradient(to left, #098da8, #098fab, #0991ad, #0894b0, #0896b3, #0897b4, #0898b6, #0899b7, #0899b7, #0899b7, #0899b7, #0899b7);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  padding-top: 10px;
+}
+
+.tituloIndex {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  margin: 0 auto;
+  color: white;
+  font-size: 3rem;
+  margin-top: 0px;
+  text-align: center;
+  backdrop-filter: blur(12px);
+  font-family: "Italiana", serif;
+  background-color: rgba(39, 79, 77, 0.3803921569);
+}
+
+.sloganIndex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: flex-start;
+  color: white;
+  font-size: 1rem;
+  font-family: "Italiana", serif;
+}
+
+.videoTitulo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 78%;
+  margin: 0 auto;
+  color: rgb(255, 255, 255);
+  font-size: 2rem;
+  backdrop-filter: blur(15px);
+  font-family: "Italiana", serif;
+  background-color: rgba(39, 79, 77, 0.2431372549);
+}
+
+.video {
+  display: flex;
+  justify-content: center;
+}
+
+.mainNosotros {
+  height: 140vh;
+  background-image: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), url(../assets/img/fondopizzeria.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  padding-top: 10px;
+}
+
+.tituloNosotros {
+  backdrop-filter: blur(12px);
+  font-family: "Italiana", serif;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 2rem;
+}
+
+@media screen and (min-width: 0px) and (max-width: 768px) {
+  .mainNosotros {
+    height: initial;
+  }
+}
+.mainCarta {
+  display: flex;
+  flex-direction: column;
+  height: 190vh;
+  background-image: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), url(../assets/img/fondopizzeria.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0 auto;
+  padding-top: 10px;
+}
+.mainCarta .tituloCarta {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  backdrop-filter: blur(30px);
+  font-family: "Italiana", serif;
+  font-size: 10rem;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  margin: 0 auto;
+}
+.mainCarta .tituloDosCarta {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  margin: 0 auto;
+  color: rgb(255, 255, 255);
+  font-size: 2rem;
+  text-align: center;
+  backdrop-filter: blur(12px);
+  font-family: "Italiana", serif;
+  background-color: rgba(39, 79, 77, 0.4901960784);
+}
+.mainCarta .tarjetasCartaFuno {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-content: space-around;
+  margin-top: 50px;
+}
+.mainCarta .tarjetasCartaFdos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-content: space-around;
+  margin-top: 30px;
+}
+.mainCarta .tarjetasCartaFtres {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-content: space-around;
+  margin-top: 30px;
+}
+
+@media screen and (min-width: 0px) and (max-width: 768px) {
+  .mainCarta {
+    height: initial;
+  }
+  .tarjetasCartaFuno {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1px;
+  }
+  .tarjetasCartaFdos {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1px;
+  }
+  .tarjetasCartaFtres {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+    margin-top: 1px;
+  }
+}
+.mainContacto {
+  height: 180vh;
+  background-image: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), url(../assets/img/fondopizzeria.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  padding-top: 10px;
+  padding-bottom: 100vh;
+}
+.mainContacto .contacto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: "Italiana", serif;
+  color: white;
+  margin-top: 50px;
+}
+.mainContacto .contacto form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+.mainContacto .contacto form input[type=text], .mainContacto .contacto form input[type=email], .mainContacto .contacto form textarea {
+  width: 70%;
+  margin: 10px;
+  padding: 10px;
+  border: none;
+  background-color: transparent;
+  border-bottom: 2px solid white;
+  color: white;
+  font-size: 1.2rem;
+}
+.mainContacto .contacto form input[type=submit] {
+  width: 30%;
+  margin-top: 20px;
+  padding: 10px;
+  background-color: white;
+  color: #131600;
+  border: none;
+  cursor: pointer;
+  font-size: 1.2rem;
+  transition: all 0.3s ease-in-out;
+}
+.mainContacto .contacto form input[type=submit]:hover {
+  background-color: #131600;
+  color: white;
+}
+.mainContacto .contacto .boxComentarios {
+  text-align: center;
+  background-color: rgba(21, 66, 85, 0.5254901961);
+}
+.mainContacto .contacto .tituloMapa {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Italiana", serif;
+  color: white;
+  font-size: 3rem;
+  margin-top: 100px;
+}
+.mainContacto .contacto .mapa {
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+
+.mainComentarios {
+  height: 160vh;
+  background-image: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), url(../assets/img/fondopizzeria.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  padding-top: 10px;
+  padding-bottom: 100vh;
+}
+
+.tituloComentarios {
+  text-align: center;
+  font-family: "Italiana", serif;
+  color: white;
+}
+
+.boxComentarios {
+  width: 50%;
+  height: 38%;
+  margin-top: 10%;
+  margin-left: 25%;
+  text-align: center;
+}
+
+.footer {
+  height: 30vh;
+  text-align: center;
+  background-color: #131600;
+  color: whitesmoke;
+  margin-top: auto;
+}
+.footer p {
+  font-size: 1rem;
+  font-family: "katibeh", sans-serif;
+  padding-top: 10px;
+}
+.footer .linkRedes {
+  text-decoration: none;
+}
+.footer .fa-brands {
+  color: white;
+  font-size: 5rem;
+}/*# sourceMappingURL=styles.css.map */

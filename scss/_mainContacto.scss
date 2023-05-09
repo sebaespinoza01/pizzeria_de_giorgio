@@ -1,79 +1,104 @@
-.mainContacto{
-    height: 180vh;
-    background-image: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), 
-    url(../assets/img/fondopizzeria.jpg);
+.mainContacto {
+    height: 190vh;
+    background-image: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), url(../assets/img/fondopizzeria.jpg);
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    margin:0 auto;
+    margin: 0 auto;
     padding-top: 10px;
-    padding-bottom: 100vh;
-}
 
-.contacto{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    font-family: 'Italiana', serif;
-    color: white;
-    margin-top: 50px;
-}
+    .contacto {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-family: 'Italiana', serif;
+        color: white;
+        margin-top: 50px;
 
-.contacto form{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-top: 50px;
-}
+        form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 50px;
 
-.contacto input[type="text"], .contacto input[type="email"], .contacto textarea{
-    width: 70%;
-    margin: 10px;
-    padding: 10px;
-    border: none;
-    background-color: transparent;
-    border-bottom: 2px solid white;
-    color: white;
-    font-size: 1.2rem;
-}
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 70%;
+            margin: 10px;
+            padding: 10px;
+            border: none;
+            background-color: transparent;
+            border-bottom: 2px solid white;
+            color: white;
+            font-size: 1.2rem;
+            cursor: pointer;
+        }
+        input[type="submit"],
+        input[type="reset"] {
+            width: 45%;
+            margin-top: 20px;
+            padding: 10px;
+            background-color: white;
+            color: #131600;
+            border: none;
+            cursor: pointer;
+            font-size: 1.2rem;
+            transition: all 0.3s ease-in-out;
 
-.contacto input[type="submit"]{
-    width: 30%;
-    margin-top: 20px;
-    padding: 10px;
-    background-color: white;
-    color: #131600;
-    border: none;
-    cursor: pointer;
-    font-size: 1.2rem;
-    transition: all 0.3s ease-in-out;
-}
+            &:hover {
+            background-color: #2f3605;
+            color: white;
+            }
+        }
+    }
 
-.contacto input[type="submit"]:hover{
-    background-color: #131600;
-    color: white;
-}
+        .boxComentarios {
+        text-align: center;
+        background-color: #154255d3;
 
-.boxComentarios{
-    text-align: center;
-    background-color: #15425586;
-}
+        &:hover {
+            background-color: #99af0b;
+            color: white;
+        }
+        }
+    }
+    .tituloMapa {
+        h2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Italiana', serif;
+        color: white;
+        margin-top: 100px;
+        }
+    }
 
-.tituloMapa{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: 'Italiana', serif;
-    color: white;
-    font-size: 3rem;
-    margin-top: 100px;
-}
+    .mapa {
+        display: flex;
+        justify-content: center;
+    }
+    }
 
-.mapa{
-    display: flex;
-    align-items: end;
-    justify-content: center;
-}
+
+    @media screen and (min-width: 0px) and (max-width: 768px)
+    {
+        .mainContacto{ 
+            height: initial;
+        }
+        .casillaComentario .boxComentarios{
+            display: flex;
+            flex-direction: row;
+            width: 70%;
+            padding-right: 15%;
+            padding-left: 15%;
+            margin-left: 15%;
+
+        }
+        .formNombre{
+            width: 100%;
+        }
+    }

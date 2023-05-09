@@ -176,17 +176,15 @@
   }
 }
 .mainContacto {
-  height: 180vh;
+  height: 190vh;
   background-image: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), url(../assets/img/fondopizzeria.jpg);
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
   margin: 0 auto;
   padding-top: 10px;
-  padding-bottom: 100vh;
 }
-
-.contacto {
+.mainContacto .contacto {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -196,16 +194,16 @@
   color: white;
   margin-top: 50px;
 }
-
-.contacto form {
+.mainContacto .contacto form {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   margin-top: 50px;
 }
-
-.contacto input[type=text], .contacto input[type=email], .contacto textarea {
+.mainContacto .contacto form input[type=text],
+.mainContacto .contacto form input[type=email],
+.mainContacto .contacto form textarea {
   width: 70%;
   margin: 10px;
   padding: 10px;
@@ -214,10 +212,11 @@
   border-bottom: 2px solid white;
   color: white;
   font-size: 1.2rem;
+  cursor: pointer;
 }
-
-.contacto input[type=submit] {
-  width: 30%;
+.mainContacto .contacto form input[type=submit],
+.mainContacto .contacto form input[type=reset] {
+  width: 45%;
   margin-top: 20px;
   padding: 10px;
   background-color: white;
@@ -227,33 +226,48 @@
   font-size: 1.2rem;
   transition: all 0.3s ease-in-out;
 }
-
-.contacto input[type=submit]:hover {
-  background-color: #131600;
+.mainContacto .contacto form input[type=submit]:hover,
+.mainContacto .contacto form input[type=reset]:hover {
+  background-color: #2f3605;
   color: white;
 }
-
-.boxComentarios {
+.mainContacto .contacto .boxComentarios {
   text-align: center;
-  background-color: rgba(21, 66, 85, 0.5254901961);
+  background-color: rgba(21, 66, 85, 0.8274509804);
 }
-
-.tituloMapa {
+.mainContacto .contacto .boxComentarios:hover {
+  background-color: #99af0b;
+  color: white;
+}
+.mainContacto .tituloMapa h2 {
   display: flex;
   align-items: center;
   justify-content: center;
   font-family: "Italiana", serif;
   color: white;
-  font-size: 3rem;
   margin-top: 100px;
 }
-
-.mapa {
+.mainContacto .mapa {
   display: flex;
-  align-items: end;
   justify-content: center;
 }
 
+@media screen and (min-width: 0px) and (max-width: 768px) {
+  .mainContacto {
+    height: initial;
+  }
+  .casillaComentario .boxComentarios {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    padding-right: 15%;
+    padding-left: 15%;
+    margin-left: 15%;
+  }
+  .formNombre {
+    width: 100%;
+  }
+}
 .mainComentarios {
   height: 160vh;
   background-image: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), url(../assets/img/fondopizzeria.jpg);
