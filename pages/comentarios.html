@@ -1,83 +1,182 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Giorgio Pizza</title>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-        <link rel="stylesheet" href="../css/styles.css">
-        <script src="https://kit.fontawesome.com/acaf011dda.js" crossorigin="anonymous"></script>
-    </head>
-    <body>
-        <header class="header container-fluid">
-            <div>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Lo que nuestros clientes comentan">
+    <meta name="keywords" content="pizza de 5 estrellas, pizza lovers, no solo lo decimos nosotros">
+    <title>GPizza - Comentarios</title>
+    <link rel="icon" href="../assets/img/favicon.ico">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/styles.css">
+    <script src="https://kit.fontawesome.com/acaf011dda.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header class="header container-fluid">
+        <div>
             <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
                 <div class="container-fluid">
-                <a class="navbar-brand" href="../index.html">
-                    <img src="../assets/img/logo.jpg" alt="" width="100px" class="d-inline-block align-text-top">
-                    
-                </a>
-                <h3>GiorgioPizza</h3>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav w-100 justify-content-end">
-                    <li class="nav-item">
-                        <a class="nav-link active colorLink" aria-current="page" href="../index.html">Inicio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link colorLink" href="./nosotros.html">Nosotros</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link colorLink" href="./carta.html">Carta</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link colorLink" href="./Contacto.html">Contacto</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link colorLink text-white" href="#">Comentarios</a>
-                    </li>
-                    </ul>
-                </div>
+                    <a class="navbar-brand" href="../index.html">
+                        <img src="../assets/img/logo.jpg" alt="" width="100px" class="d-inline-block align-text-top">
+
+                    </a>
+                    <h3>GiorgioPizza</h3>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav w-100 justify-content-end">
+                            <li class="nav-item">
+                                <a class="nav-link active colorLink" aria-current="page" href="../index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link colorLink" href="./nosotros.html">Nosotros</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link colorLink" href="./carta.html">Carta</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link colorLink" href="./Contacto.html">Contacto</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link colorLink text-white" href="#">Comentarios</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </nav>
-            </div>
+        </div>
     </header>
     <main class="mainComentarios">
         <div class="tituloComentarios">
-        <h1>Tu opinion es importante para nosotros</h1>
+            <h1>Lo que los clientes opinan de nosotros:</h1>
         </div>
-        <form class="boxComentarios">
-            <div>
-                <input type="text" placeholder="Ingresa tu nombre"required>
+        <section class="opiniones">
+            <div class="cajaPrincipal">
+                <div class="caja">
+                    <i class="fa-solid fa-user fa-fade" style="color: #36c9c0;"></i>
+                    <div clas="user">
+                        <img src="../assets/img/persona1.jpg" alt="usuariofoto">
+                        <h3>maria</h3>
+                    </div>
+                    <div class="stars">
+                        <i class="fa-solid fa-star fa-sm" style="color: #e0ce00;"></i>
+                        <i class="fa-solid fa-star fa-sm" style="color: #e0ce00;"></i>
+                        <i class="fa-solid fa-star fa-sm" style="color: #e0ce00;"></i>
+                        <i class="fa-solid fa-star fa-sm" style="color: #e0ce00;"></i>
+                        <i class="fa-solid fa-star fa-sm" style="color: #e0ce00;"></i>
+                    </div>
+                    <div class="comentarios"></div>
+                    "¡La mejor pizza que he probado en mi vida! El ambiente es acogedor, el personal es amable y
+                    cercano, es como sentirce en casa. La pizza es fresca y tiene ingredientes de calidad. Recomiendo
+                    encarecidamente la pizza Margherita y la Diavola. ¡Definitivamente volveré!"
+                </div>
             </div>
-            <div>
-                <input type="text" placeholder="Ingresa Tu Mail" required>
+            <div class="cajaPrincipal">
+                <div class="caja">
+                    <i class="fa-solid fa-user fa-fade" style="color: #36c9c0;"></i>
+                    <div clas="user">
+                        <img src="../assets/img/persona2.jpg" alt="usuariofoto">
+                        <h3>Juan</h3>
+                    </div>
+                    <div class="stars">
+                        <i class="fa-solid fa-star fa-sm" style="color: #e0ce00;"></i>
+                        <i class="fa-solid fa-star fa-sm" style="color: #e0ce00;"></i>
+                        <i class="fa-solid fa-star fa-sm" style="color: #e0ce00;"></i>
+                        <i class="fa-solid fa-star fa-sm" style="color: #e0ce00;"></i>
+                        <i class="fa-solid fa-star fa-sm" style="color: #e0ce00;"></i>
+                    </div>
+                    <div class="comentarios"></div>
+                    "Giorgio Pizza es simplemente increíble. Cada bocado de pizza es una explosión de sabor. El queso es
+                    fresco y la masa es deliciosa. El personal es amable y servicial. No puedo esperar a volver y probar
+                    más de su menú."
+                </div>
             </div>
-            <div>
-                <textarea cols="30" rows="10"placeholder="Dejanos Tu comentario"></textarea>
+            <div class="cajaPrincipal">
+                <div class="caja">
+                    <i class="fa-solid fa-user fa-fade" style="color: #36c9c0;"></i>
+                    <div clas="user">
+                        <img src="../assets/img/persona3.jpg" alt="usuariofoto">
+                        <h3>Diego</h3>
+                    </div>
+                    <div class="stars">
+                        <i class="fa-solid fa-star fa-sm" style="color: #e0ce00;"></i>
+                        <i class="fa-solid fa-star fa-sm" style="color: #e0ce00;"></i>
+                        <i class="fa-solid fa-star fa-sm" style="color: #e0ce00;"></i>
+                        <i class="fa-solid fa-star fa-sm" style="color: #e0ce00;"></i>
+                        <i class="fa-solid fa-star fa-sm" style="color: #e0ce00;"></i>
+                    </div>
+                    <div class="comentarios"></div>
+                    "Si buscas una pizza auténtica y deliciosa, este es el lugar para ir. El lugar es acogedor y el
+                    servicio es excelente. Las pizzas son perfectamente horneadas y el queso se derrite en la boca.
+                    Recomiendo probar la pizza Margarita, ¡es mi favorita!"
+                </div>
             </div>
-            <div>
-                <input type="submit" value="Enviar formulario">
-                <input type="reset" value="Limpiar">
+            <div class="cajaPrincipal">
+                <div class="caja">
+                    <i class="fa-solid fa-user fa-fade" style="color: #36c9c0;"></i>
+                    <div clas="user">
+                        <img src="../assets/img/persona4.jpg" alt="usuariofoto">
+                        <h3>Carol-Li</h3>
+                    </div>
+                    <div class="stars">
+                        <i class="fa-solid fa-star fa-sm" style="color: #e0ce00;"></i>
+                        <i class="fa-solid fa-star fa-sm" style="color: #e0ce00;"></i>
+                        <i class="fa-solid fa-star fa-sm" style="color: #e0ce00;"></i>
+                        <i class="fa-solid fa-star fa-sm" style="color: #e0ce00;"></i>
+                        <i class="fa-solid fa-star fa-sm" style="color: #e0ce00;"></i>
+                    </div>
+                    <div class="comentarios"></div>
+                    "Probé Giorgio Pizza por primera vez la semana pasada y quedé impresionada. La pizza es
+                    absolutamente deliciosa, con ingredientes frescos y sabrosos. La masa es perfectamente crujiente y
+                    se hornea a la perfección. El personal es amable y acogedor. Recomiendo encarecidamente este lugar a
+                    cualquier amante de la pizza".
+                </div>
+            </div>
+            <div class="cajaPrincipal">
+                <div class="caja">
+                    <i class="fa-solid fa-user fa-fade" style="color: #36c9c0;"></i>
+                    <div clas="user">
+                        <img src="../assets/img/persona5.jpg" alt="usuariofoto">
+                        <h3>Alvaro</h3>
+                    </div>
+                    <div class="stars">
+                        <i class="fa-solid fa-star fa-sm" style="color: #e0ce00;"></i>
+                        <i class="fa-solid fa-star fa-sm" style="color: #e0ce00;"></i>
+                        <i class="fa-solid fa-star fa-sm" style="color: #e0ce00;"></i>
+                        <i class="fa-solid fa-star fa-sm" style="color: #e0ce00;"></i>
+                        <i class="fa-solid fa-star fa-sm" style="color: #e0ce00;"></i>
+                    </div>
+                    <div class="comentarios"></div>
+                    "Giorgio Pizza es mi lugar favorito para comer pizza en la ciudad. La pizza es simplemente deliciosa
+                    y siempre está perfectamente cocida. El ambiente es acogedor y el personal es amable y atento.
+                    Recomiendo probar la pizza Quattro Formaggi, ¡es una delicia para los amantes del queso!"
+                </div>
+            </div>
+        </section>
+    </main>
 
-            </div>
-
-        </form>
-    </main> 
-    <hr>
     <footer class="footer container-fluid">
-    <p>Todos los derechos reservados © Sebas Espinoza</p>
-    <div>
-        <a class="linkRedes" href="https://www.facebook.com"><i class="fa-brands fa-square-facebook" style="color: #c0c0c0;"></i></a>
-        <a class="linkRedes" href="https://www.instagram.com"><i class="fa-brands fa-instagram" style="color: #aaaaaa;"></i></a>
-        <a class="linkRedes" href="https://www.linkedin.com"><i class="fa-brands fa-linkedin" style="color: #c0c0c0;"></i></a>
-    </div>
-
+        <p>Todos los derechos reservados © Sebas Espinoza</p>
+        <div clas="ContenedorLink">
+            <a class="linkRedes" href="https://www.facebook.com"><i class="fa-brands fa-facebook fa-beat fa-xl"
+                    style="color: #36c9c0;"></i>
+                <a class="linkRedes" href="https://instagram.com/ilgiorgiopizzeria?igshid=MzRlODBiNWFlZA=="><i class="fa-brands fa-instagram fa-spin fa-xl"
+                        style="color: #36c9c0;"></i>
+                    <a class="linkRedes" href="https://www.whatsapp.com/?lang=es"><i
+                            class="fa-brands fa-whatsapp fa-beat fa-xl" style="color: #36c9c0;"></i>
+        </div>
     </footer>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>

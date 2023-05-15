@@ -208,13 +208,43 @@
     font-family: 'Italiana', serif;
     color: white;
 }
-.boxComentarios{
-    width: 50%;
-    height: 38%;
-    margin-top: 10%;
-    margin-left: 25%;
+.opiniones .cajaPrincipal .caja{
+    background: white;
+    margin: 1rem;
+    padding: 1rem;
     text-align: center;
+    position: relative;
+    border: .1rem solid rgba(0, 0, 0, .1);
+    flex: 1 1 30rem;
+    border-radius: .5rem;
 }
+.opiniones .cajaPrincipal .fa-solid{
+    position: absolute;
+    top: 1rem;
+    right: 2rem;
+    font-size: 8rem;
+}
+.opiniones .cajaPrincipal .caja .user img{
+    border-radius: 50%;
+    object-fit: cover;
+    height: 8rem;
+    width: 8rem;
+    margin-top: 2rem;
+}
+.opiniones .cajaPrincipal .caja .user h3{
+    font-size: 2rem;
+    color: greenyellow;
+}
+.opiniones .cajaPrincipal .caja .user .stars i{
+    font-size: 1.5rem;
+    padding: 1rem 0;
+}
+.opiniones .cajaPrincipal .caja .comentarios{
+    color: white;
+    font-size: 2rem;
+    padding: 1rem;
+}
+
 
 /*aqui comienza el footer*/
 

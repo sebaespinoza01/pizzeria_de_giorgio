@@ -1,23 +1,89 @@
-.mainComentarios{
-    height: 160vh;
-    background-image: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), 
-    url(../assets/img/fondopizzeria.jpg);
+.mainComentarios {
+    background-image: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), url(../assets/img/fondopizzeria.jpg);
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    margin:0 auto;
+    margin: 0 auto;
     padding-top: 10px;
-    padding-bottom: 100vh;
+
+    .tituloComentarios {
+        text-align: center;
+        font-family: 'Italiana', serif;
+        color: white;
+    }
+
+    .opiniones {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 3rem;
+
+        .cajaPrincipal {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            margin-top: 2rem;
+
+            .caja {
+                background: white;
+                margin: 1rem;
+                padding: 1rem;
+                text-align: center;
+                position: relative;
+                border: .1rem solid rgba(0, 0, 0, .1);
+                flex: 1 1 30rem;
+                border-radius: .5rem;
+
+                .user {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+
+                    img {
+                        border-radius: 80%;
+                        object-fit: cover;
+                        height: 1rem;
+                        width: 1rem;
+                        margin-top: 2rem;
+                    }
+
+                    h3 {
+                        font-size: 2rem;
+                        color: greenyellow;
+                    }
+
+                    .stars {
+                        display: flex;
+                        justify-content: center;
+
+                        i {
+                            font-size: 1.5rem;
+                            padding: 1rem 0;
+                        }
+                    }
+                }
+
+                .comentarios {
+                    color: white;
+                    font-size: 2rem;
+                    padding: 1rem;
+                }
+
+                .fa-solid .fa-fade {
+                    position: absolute;
+                    top: 1rem;
+                    right: 2rem;
+                    font-size: 2rem;
+                }
+            }
+        }
+    }
 }
-.tituloComentarios{
-    text-align: center;
-    font-family: 'Italiana', serif;
-    color: white;
-}
-.boxComentarios{
-    width: 50%;
-    height: 38%;
-    margin-top: 10%;
-    margin-left: 25%;
-    text-align: center;
+
+@media (max-width: 768px) {
+    img {
+        max-width: 80%;
+    }
 }
