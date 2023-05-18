@@ -1,5 +1,4 @@
 .mainIndex {
-    height: 160vh;
     background-image: linear-gradient(to left, #098da8, #098fab, #0991ad, #0894b0, #0896b3, #0897b4, #0898b6, #0899b7, #0899b7, #0899b7, #0899b7, #0899b7);
     background-size: cover;
     background-attachment: fixed;
@@ -53,12 +52,18 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-    }
+        padding-bottom: 20px; /* Puedes ajustar el valor según la separación deseada */
+        }      
 }
 
 @media only screen and (max-width: 768px) {
     iframe {
         width: 100%;
         height: auto;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .mainIndex {
+        width: 200vh;
     }
 }

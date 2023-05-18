@@ -9,7 +9,7 @@
     .tituloComentarios {
         text-align: center;
         font-family: 'Italiana', serif;
-        color: white;
+        color: rgba(255, 255, 255, 0.88);
     }
 
     .opiniones {
@@ -27,20 +27,18 @@
             margin-top: 2rem;
 
             .caja {
-                background: white;
+                background: rgba(255, 255, 255, 0.487);
                 margin: 1rem;
                 padding: 1rem;
                 text-align: center;
                 position: relative;
-                border: .1rem solid rgba(0, 0, 0, .1);
+                border: .3rem solid rgba(0, 0, 0, .1);
                 flex: 1 1 30rem;
                 border-radius: .5rem;
-
                 .user {
                     display: flex;
                     flex-direction: column;
                     align-items: center;
-
                     img {
                         border-radius: 80%;
                         object-fit: cover;
@@ -48,34 +46,32 @@
                         width: 1rem;
                         margin-top: 2rem;
                     }
-
                     h3 {
-                        font-size: 2rem;
+                        font-size: 1rem;
                         color: greenyellow;
                     }
-
                     .stars {
                         display: flex;
                         justify-content: center;
-
                         i {
                             font-size: 1.5rem;
                             padding: 1rem 0;
                         }
                     }
+                    
                 }
 
-                .comentarios {
-                    color: white;
-                    font-size: 2rem;
-                    padding: 1rem;
+                    .comentarios {
+                        color:green($color: #000000);
+                        font-size: 4rem;
+                        padding: 1rem;
                 }
 
                 .fa-solid .fa-fade {
                     position: absolute;
                     top: 1rem;
                     right: 2rem;
-                    font-size: 2rem;
+                    font-size: 1rem;
                 }
             }
         }
@@ -85,5 +81,10 @@
 @media (max-width: 768px) {
     img {
         max-width: 80%;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .mainComentarios {
+        width: 200vh;
     }
 }

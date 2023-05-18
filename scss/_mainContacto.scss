@@ -1,5 +1,4 @@
 .mainContacto {
-    height: 190vh;
     background-image: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), url(../assets/img/fondopizzeria.jpg);
     background-size: cover;
     background-attachment: fixed;
@@ -80,6 +79,7 @@
     .mapa {
         display: flex;
         justify-content: center;
+        padding-bottom: 18%;
     }
     }
 
@@ -100,5 +100,11 @@
         }
         .formNombre{
             width: 100%;
+        }
+    }
+
+    @media screen and (min-width: 768px) and (max-width: 1024px) {
+        .mainContacto {
+            width: 200vh;
         }
     }

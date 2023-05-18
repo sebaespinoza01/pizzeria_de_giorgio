@@ -1,5 +1,5 @@
 .header {
-    height: 18vh;
+    height: 22vh;
     background-image: linear-gradient(to left, #098da8, #098fab, #0991ad, #0894b0, #0896b3, #0897b4, #0898b6, #0899b7, #0899b7, #0899b7, #0899b7, #0899b7);
     background-position: center;
     background-repeat: no-repeat;
@@ -18,5 +18,10 @@
     { 
         .header{
             height: initial;
+        }
+    }
+    @media screen and (min-width: 768px) and (max-width: 1024px) {
+        .header {
+            width: 200vh;
         }
     }

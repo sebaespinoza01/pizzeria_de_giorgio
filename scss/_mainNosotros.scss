@@ -1,23 +1,33 @@
-.mainNosotros{
-    height: 140vh;
-    background-image: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), 
-    url(../assets/img/fondopizzeria.jpg);
+.mainNosotros {
+    background-image: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), url(../assets/img/fondopizzeria.jpg);
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    margin:0 auto;
+    margin: 0 auto;
     padding-top: 10px;
+
+    .fotogio {
+        .card {
+            .card-img-overlay {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+    }
+
+    .tituloNosotros {
+        backdrop-filter: blur(12px);
+        font-family: 'Italiana', serif;
+        text-align: center;
+        color: rgb(255, 255, 255);
+        font-size: 1.5rem;
+    }
 }
-.tituloNosotros{
-    backdrop-filter: blur(12px);
-    font-family: 'Italiana', serif;
-    text-align: center;
-    color: rgb(255, 255, 255);
-    font-size: 1.5rem;
-}
-@media screen and (min-width: 0px) and (max-width: 768px)
-{
-    .mainNosotros{
-        height: initial;
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .mainNosotros {
+        width: 200vh;
     }
 }
